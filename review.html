@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Reviews</title>
+    <style>
+        body{background: #C9E3F4;font-family:Philosopher;}
+        .Rectangle{position: absolute;left: 0px;top: 0px;height:50px;width:1500px;background: #030443;display: table;}
+      ul#horizontal-list {
+      min-width: 696px;
+      list-style: none;
+      padding-top: 40px;
+      }
+      ul#horizontal-list li {
+         display: inline;
+         margin-left: 80px;
+         padding-left: 50px;
+         color: #dcdce9;
+         font-size: large;
+      }
+      ul#horizontal-list li a{
+         text-decoration: none;
+         color: #dcdce9;
+      }
+      ul#horizontal-list li a:hover {
+        color:seagreen
+        }
+   
+      .button {
+        border: none;
+        color:#dcdce9;
+        margin-top: 100px;
+        padding: 16px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        background-color: #030443;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        }
+        .button1:hover {
+        background-color:#dcdce9;
+        color:#030443;
+        }
+        .rev-section{
+        margin: auto;
+        padding: 0 1rem;
+        max-width: 1100px;
+        text-align: center;
+        }
+
+        .title{
+        font-size: 2.5rem;
+        text-transform: uppercase;
+        color: rgb(50, 50, 50);
+        margin-bottom: .5rem;
+        }
+        .note{
+        font-size: 1.1rem;
+        color: rgb(150, 150, 150);
+        font-style: italic;
+            color:#030443;
+        }
+
+        .reviews{
+        margin: 2rem auto;
+        display: flex;
+        overflow-x: auto;
+        }
+        .review{
+        margin: 0 1rem;
+        min-width: 300px;
+        flex: 1;
+        }
+
+        .head-review{
+        margin: 1.75rem auto;
+        width: 150px;
+        height: 150px;
+        }
+        img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 50%;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, .25);
+        }
+
+        .body-review{
+        background-color: rgb(238, 238, 238);
+        padding: 2.5rem;
+        box-shadow: 2px 2px 10px 3px rgb(225, 225, 225);
+        }
+        .name-review{
+        font-size: 1.5rem;
+        color: rgb(18, 7, 58);
+        margin-bottom: .25rem;
+        }
+        .place-review{
+        color: rgb(19, 7, 75);
+        font-style: italic;
+        }
+        .rating{
+        color: rgb(253, 180, 42);
+        margin: 1rem 0;
+        }
+        .desc-review{
+        line-height: 1.5rem;
+        letter-spacing: 1px;
+        color: rgb(150, 150, 150);
+        }
+
+        @media (max-width: 678px){
+        .review{
+            margin-top: 1.5rem;
+        }
+        }
+
+    </style>
+    <script src="https://kit.fontawesome.com/44f557ccce.js"></script>
+</head>
+<body>
+    <div class="Rectangle">
+        <ul id="horizontal-list">
+         
+         <li><a href="home.html">Home</a></li>
+         <li><a href="Explore.html">Explore</a></li>
+         <li><a href="review.html">Review</a></li>
+         <li><a href="About.html">About</a></li>
+         <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+        
+    </div>
+    <a href="submit.html"
+    <button class="button button1" href="submit.html">Writa a Review</button>
+    </a>
+    <div class="rev-section">
+
+        <h2 class="title">Our Guests Love Us</h2>
+        <p class="note">Tailored Experiences-Breath. Feel. Live. Your time is now.</p>
+        
+        <div class="reviews">
+        
+        <div class="review">
+           <div class="head-review">
+              <img src="https://images.unsplash.com/photo-1488161628813-04466f872be2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80" width="250px">
+           </div>
+           <div class="body-review">
+              <div class="name-review">Ahaan K.</div>
+              <div class="place-review">Goa</div>
+              <div class="rating">
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star-half"></i>
+              </div>
+              <div class="desc-review">Found the site extremly helpful.Reliable and accurate information</div>
+           </div>
+        </div>
+        <div class="review">
+           <div class="head-review">
+              <img src="https://images.unsplash.com/photo-1479936343636-73cdc5aae0c3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80" width="250px">
+           </div>
+           <div class="body-review">
+              <div class="name-review">Suhani S.</div>
+              <div class="place-review">Delhi</div>
+              <div class="rating">
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+              </div>
+              <div class="desc-review">Makes planning trips way easier and saves time wasted in toggling between sites</div>
+           </div>
+        </div>
+        <div class="review">
+           <div class="head-review">
+              <img src="https://images.unsplash.com/photo-1463453091185-61582044d556?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" width="250px">
+           </div>
+           <div class="body-review">
+              <div class="name-review">Kevin T.</div>
+              <div class="place-review">Kerala</div>
+              <div class="rating">
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star-half"></i>
+              </div>
+              <div class="desc-review">Planned an amazing vacation with Holiday Hype. Site is easy to use and really helpful</div>
+           </div>
+        </div>
+        
+        <div class="review">
+            <div class="head-review">
+               <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8dXNlciUyMHByb2ZpbGV8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80" width="250px">
+            </div>
+            <div class="body-review">
+               <div class="name-review">Mehak M.</div>
+               <div class="place-review">Banglore</div>
+               <div class="rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half"></i>
+               </div>
+               <div class="desc-review">Planned an amazing vacation with Holiday Hype. Site is easy to use and really helpful</div>
+            </div>
+         </div>
+         <div class="review">
+            <div class="head-review">
+               <img src="https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80" width="250px">
+            </div>
+            <div class="body-review">
+               <div class="name-review">Aarya D.</div>
+               <div class="place-review">Karnataka</div>
+               <div class="rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half"></i>
+               </div>
+               <div class="desc-review">Planned an amazing vacation with Holiday Hype. Site is easy to use and really helpful</div>
+            </div>
+        </div>
+        
+        </div>
+        </div>
+</body>
+</html>
